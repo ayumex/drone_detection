@@ -34,7 +34,7 @@ class DroneDetector(nn.Module):
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         logger.info("Using device: %s", self.device)
         
-        # Convolutional layers
+        # Convolutional layers with adjusted architecture
         self.conv_layers = nn.Sequential(
             # First conv block
             nn.Conv1d(2, 32, kernel_size=3, padding=1),
@@ -62,6 +62,12 @@ class DroneDetector(nn.Module):
             nn.ReLU(),
             nn.MaxPool1d(2),
             nn.BatchNorm1d(256),
+            nn.Dropout(0.3),
+            
+            # Additional conv block to match desired output size
+            nn.Conv1d(256, 512, kernel_size=3, padding=1),
+            nn.ReLU(),
+            nn.BatchNorm1d(512),
             nn.Dropout(0.3)
         )
         
@@ -70,19 +76,23 @@ class DroneDetector(nn.Module):
         
         # Dense layers
         self.dense_layers = nn.Sequential(
-            nn.Linear(self.conv_output_size, 128),
+            nn.Linear(self.conv_output_size, 4096),
             nn.ReLU(),
             nn.Dropout(0.5),
             
-            nn.Linear(128, 64),
+            nn.Linear(4096, 1024),
             nn.ReLU(),
             nn.Dropout(0.5),
             
-            nn.Linear(64, 32),
+            nn.Linear(1024, 256),
             nn.ReLU(),
             nn.Dropout(0.5),
             
-            nn.Linear(32, 1),
+            nn.Linear(256, 64),
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            
+            nn.Linear(64, 1),
             nn.Sigmoid()
         )
         
@@ -90,34 +100,41 @@ class DroneDetector(nn.Module):
         
     def _calculate_conv_output_size(self):
         """Calculate the size of the flattened features after convolutions."""
-        # Create a dummy input
-        x = torch.randn(1, 2, self.input_shape[0] // 2)
+        # Create a dummy input with the correct shape
+        x = torch.randn(1, 2, self.input_shape[0])
+        logger.info(f"Input shape for conv size calculation: {x.shape}")
+        
         # Pass through conv layers
         x = self.conv_layers(x)
+        logger.info(f"Output shape after conv layers: {x.shape}")
+        
         # Calculate flattened size
         self.conv_output_size = x.view(1, -1).size(1)
+        logger.info(f"Flattened conv output size: {self.conv_output_size}")
         
     def forward(self, x):
         """Forward pass through the network."""
         # Handle complex input
         if torch.is_complex(x):
-            # Split into real and imaginary parts
             x_real = x.real
             x_imag = x.imag
-            # Stack along channel dimension
             x = torch.stack([x_real, x_imag], dim=1)
         else:
-            # Reshape input to (batch_size, channels, length)
             x = x.view(x.size(0), 2, -1)
+        
+        logger.debug(f"Input shape after complex handling: {x.shape}")
         
         # Pass through conv layers
         x = self.conv_layers(x)
+        logger.debug(f"Shape after conv layers: {x.shape}")
         
         # Flatten
         x = x.view(x.size(0), -1)
+        logger.debug(f"Shape after flattening: {x.shape}")
         
         # Pass through dense layers
         x = self.dense_layers(x)
+        logger.debug(f"Final output shape: {x.shape}")
         
         return x
         

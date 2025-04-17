@@ -172,3 +172,1109 @@
 2025-04-17 07:41:42,098 - src.models.drone_detector - INFO - Using device: cuda
 2025-04-17 07:41:47,572 - src.models.drone_detector - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x128)
 2025-04-17 07:41:47,581 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x128)
+2025-04-17 08:12:51,779 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 08:12:59,540 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 08:15:41,195 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 08:15:41,238 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 08:15:41,289 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 08:15:41,289 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 08:15:45,368 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 08:15:45,368 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 08:15:45,369 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 08:15:45,369 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 08:15:45,576 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 08:15:45,762 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 08:15:45,958 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 08:16:24,170 - src.models.drone_detector - INFO - Epoch [1/20], Train Loss: 0.5182, Val Loss: 1.2314
+2025-04-17 08:16:57,592 - src.models.drone_detector - INFO - Epoch [2/20], Train Loss: 0.3831, Val Loss: 2.5562
+2025-04-17 08:17:31,592 - src.models.drone_detector - INFO - Epoch [3/20], Train Loss: 0.3421, Val Loss: 1.3019
+2025-04-17 08:18:05,276 - src.models.drone_detector - INFO - Epoch [4/20], Train Loss: 0.3262, Val Loss: 2.0167
+2025-04-17 08:18:40,063 - src.models.drone_detector - INFO - Epoch [5/20], Train Loss: 0.3163, Val Loss: 1.8585
+2025-04-17 08:19:17,282 - src.models.drone_detector - INFO - Epoch [6/20], Train Loss: 0.3044, Val Loss: 2.3502
+2025-04-17 08:19:52,932 - src.models.drone_detector - INFO - Epoch [7/20], Train Loss: 0.3070, Val Loss: 1.8536
+2025-04-17 08:20:27,860 - src.models.drone_detector - INFO - Epoch [8/20], Train Loss: 0.2903, Val Loss: 1.3659
+2025-04-17 08:21:03,281 - src.models.drone_detector - INFO - Epoch [9/20], Train Loss: 0.2833, Val Loss: 1.0808
+2025-04-17 08:21:40,091 - src.models.drone_detector - INFO - Epoch [10/20], Train Loss: 0.2836, Val Loss: 1.3526
+2025-04-17 08:22:14,787 - src.models.drone_detector - INFO - Epoch [11/20], Train Loss: 0.2738, Val Loss: 1.1644
+2025-04-17 08:22:49,383 - src.models.drone_detector - INFO - Epoch [12/20], Train Loss: 0.2678, Val Loss: 2.4997
+2025-04-17 08:23:23,867 - src.models.drone_detector - INFO - Epoch [13/20], Train Loss: 0.2697, Val Loss: 1.1462
+2025-04-17 08:23:59,057 - src.models.drone_detector - INFO - Epoch [14/20], Train Loss: 0.2528, Val Loss: 1.3964
+2025-04-17 08:24:33,673 - src.models.drone_detector - INFO - Epoch [15/20], Train Loss: 0.2480, Val Loss: 2.2111
+2025-04-17 08:25:08,466 - src.models.drone_detector - INFO - Epoch [16/20], Train Loss: 0.2459, Val Loss: 3.5796
+2025-04-17 08:25:43,165 - src.models.drone_detector - INFO - Epoch [17/20], Train Loss: 0.2379, Val Loss: 2.7799
+2025-04-17 08:26:18,069 - src.models.drone_detector - INFO - Epoch [18/20], Train Loss: 0.2353, Val Loss: 2.3047
+2025-04-17 08:26:52,672 - src.models.drone_detector - INFO - Epoch [19/20], Train Loss: 0.2297, Val Loss: 1.9818
+2025-04-17 08:27:27,750 - src.models.drone_detector - INFO - Epoch [20/20], Train Loss: 0.2315, Val Loss: 3.5598
+2025-04-17 08:27:27,833 - src.models.drone_detector - INFO - Model saved to models/drone_detector.pt
+2025-04-17 08:27:28,015 - src.evaluation.evaluator - ERROR - Error during model evaluation: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x512)
+2025-04-17 08:27:28,020 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x512)
+2025-04-17 08:29:23,375 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 08:30:08,941 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 08:32:49,330 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 08:32:49,361 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 08:32:49,434 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 08:32:49,434 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 08:32:53,648 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 08:32:53,649 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 08:32:53,649 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 08:32:53,649 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 08:32:53,871 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 08:32:54,085 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 08:32:54,312 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 08:32:58,568 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:58,885 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:58,911 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:58,936 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:58,960 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:58,984 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,008 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,032 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,058 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,084 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,111 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,140 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,168 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,195 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,220 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,249 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,283 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,308 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,332 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,356 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,381 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,404 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,429 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,452 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,478 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,502 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,528 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,551 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,577 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,600 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,626 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,650 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,676 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,700 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,727 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,750 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,776 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,800 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,826 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,850 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,878 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,902 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,928 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,951 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:32:59,976 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,000 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,028 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,052 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,077 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,104 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,132 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,158 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,181 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,208 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,233 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,261 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,287 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,317 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,344 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,371 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,397 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,424 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,447 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,470 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,496 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,519 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,545 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,568 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,592 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,615 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,637 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,663 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,686 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,711 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,734 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,760 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,783 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,807 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,830 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,853 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,878 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,901 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,925 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,948 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,972 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:00,996 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,018 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,045 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,068 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,096 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,118 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,144 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,167 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,194 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,218 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,243 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,268 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,292 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,316 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,340 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,363 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,388 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,413 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,437 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,464 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,487 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,513 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,537 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,562 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,585 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,611 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,633 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,659 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,682 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,707 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,730 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,753 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,778 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,801 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,826 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,852 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,879 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,903 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,929 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,952 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:01,977 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,001 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,026 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,049 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,075 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,100 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,128 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,152 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,178 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,202 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,227 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,250 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,277 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,301 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,326 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,349 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,374 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,396 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,420 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,444 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,468 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,494 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,517 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,543 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,567 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,592 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,615 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,639 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,664 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,687 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,712 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,735 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,759 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,781 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,805 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,830 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,854 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,878 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,901 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,926 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,949 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,974 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:02,997 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,020 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,045 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,068 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,094 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,118 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,144 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,168 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,194 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,218 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,245 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,269 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,294 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,317 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,344 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,366 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,391 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,414 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,437 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,462 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,485 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,509 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,533 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,558 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,582 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,607 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,631 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,654 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,710 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,734 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,760 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,785 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,809 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,832 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,856 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,880 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,902 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,930 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,953 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:03,980 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,006 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,030 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,054 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,079 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,102 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,127 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,151 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,176 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,199 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,224 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,248 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,273 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,297 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,320 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,345 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,370 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,397 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,420 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,446 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,473 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,497 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,523 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,546 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,569 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,595 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,618 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,643 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,665 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,689 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,713 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,736 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,762 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,785 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,811 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,835 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,864 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,890 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,913 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,937 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,962 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:04,985 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,010 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,034 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,059 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,081 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,107 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,131 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,153 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,180 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,203 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,230 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,253 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,280 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,303 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,329 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,352 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,378 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,401 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,426 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,449 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,475 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,498 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,523 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,547 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,570 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,597 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,621 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,646 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,669 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,694 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,725 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,749 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,775 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,799 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,825 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,848 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,873 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,897 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,920 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,948 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,972 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:05,996 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,021 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,046 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,070 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,096 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,120 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,147 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,173 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,197 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,223 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,247 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,270 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,296 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,319 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,344 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,368 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,392 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,416 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,441 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,465 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,492 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,515 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,542 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,566 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,592 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,615 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,640 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,663 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,687 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,715 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,740 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,764 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,791 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,815 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,840 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,866 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,891 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,915 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,941 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,964 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:06,987 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,013 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,037 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,062 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,086 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,112 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,136 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,161 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,184 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,209 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,232 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,257 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,280 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,305 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,329 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,353 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,378 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,402 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,428 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,452 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,477 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,499 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,525 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,548 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,574 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,597 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,620 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,645 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,669 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,694 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,718 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,744 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,767 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,792 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,816 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,841 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,864 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,887 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,912 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:07,977 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,001 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,026 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,050 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,075 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,098 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,123 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,146 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,169 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,194 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,217 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,240 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,264 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,287 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,312 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,336 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,362 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,385 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,411 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,434 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,458 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,482 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,506 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,530 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,554 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,579 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,603 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,629 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,652 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,677 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,700 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,728 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,751 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,776 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,799 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,824 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,848 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,871 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,897 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,920 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,946 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,969 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:08,998 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,023 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,048 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,074 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,099 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,124 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,148 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,173 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,198 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,223 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,246 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,269 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,295 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,318 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,343 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,366 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,391 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,415 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,439 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,464 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,488 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,513 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,536 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,561 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,584 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,610 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,633 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,660 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,698 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,751 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,807 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,854 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:09,903 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,020 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,081 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,139 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,183 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,227 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,268 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,305 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,345 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,377 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,407 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,442 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,475 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,506 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,537 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,583 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,646 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,686 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,745 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,779 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,820 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,860 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,918 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:10,965 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,020 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,086 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,122 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,178 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,245 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,292 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,329 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,381 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,415 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,453 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,487 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,524 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,560 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,599 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,637 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,673 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,710 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,747 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,786 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,823 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,883 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,921 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,961 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:11,999 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,034 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,070 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,118 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,164 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,206 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,259 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,301 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,348 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,391 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,434 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,479 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,528 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,575 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,619 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,661 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,702 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,746 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,790 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,832 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,874 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,917 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:12,961 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,008 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,067 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,111 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,156 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,202 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,247 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,290 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,336 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,380 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,427 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,470 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,514 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,557 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,602 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,646 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,687 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,736 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,781 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,825 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,873 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,914 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:13,960 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,004 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,049 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,100 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,151 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,200 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,249 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,303 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,347 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,392 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,435 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,479 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,525 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,568 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,611 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,652 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,698 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,741 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,782 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,825 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,868 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,913 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,954 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:14,997 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,041 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,084 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,132 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,179 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,220 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,263 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,312 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,409 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,472 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,525 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,560 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,592 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,625 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,658 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,692 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,750 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,799 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,853 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,904 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:15,951 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,000 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,049 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,106 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,163 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,215 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,266 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,315 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,365 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,412 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,462 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,510 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,561 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,609 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,661 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,710 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,758 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,807 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,857 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,906 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:16,954 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,002 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,052 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,106 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,156 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,201 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,267 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,443 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,560 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,650 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,727 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,796 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,858 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,916 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:17,985 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,027 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,076 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,118 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,149 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,181 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,234 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,298 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,349 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,384 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,416 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,451 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,484 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,518 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,554 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,591 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,634 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,692 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,745 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,801 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,850 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,885 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,920 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,954 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:18,989 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,026 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,077 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,133 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,186 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,231 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,290 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,349 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,412 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,449 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,492 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,532 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,581 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,626 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,663 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,714 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,763 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,797 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,847 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,883 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,934 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:19,984 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,015 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,050 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,113 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,160 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,200 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,258 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,316 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,372 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,429 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,480 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,516 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,552 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,586 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,625 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,661 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,691 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,722 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,753 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,783 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,814 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,851 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,918 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:20,959 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,005 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,048 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,086 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,140 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,186 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,226 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,271 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,319 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,365 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,407 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,447 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,487 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,529 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,572 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,619 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,662 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,706 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,744 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,784 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,824 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,865 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,902 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,942 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:21,982 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,025 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,066 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,109 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,164 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,208 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,241 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,274 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,307 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,340 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,372 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,408 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,467 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,526 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,578 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,623 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,657 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,689 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,723 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,774 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,813 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,865 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,902 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:22,952 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,002 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,064 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,107 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,145 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,184 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,217 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,250 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,282 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,317 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,350 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,385 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,426 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,461 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,497 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,532 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,567 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,602 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,640 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,677 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,711 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,752 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,805 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,858 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,906 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:23,955 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,003 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,052 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,113 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,162 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,212 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,245 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,302 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,366 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,426 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,495 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,539 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,574 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,611 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,647 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,688 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,725 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,763 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,801 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,836 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,874 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,926 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:24,982 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,030 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,083 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,135 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,186 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,221 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,254 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,288 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,325 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,364 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,400 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,444 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,501 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,546 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,587 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,646 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,709 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,775 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,819 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,865 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,898 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,931 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:25,968 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,027 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,082 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,125 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,171 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,213 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,252 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,295 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,333 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,373 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,416 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,457 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,499 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,546 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,591 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,632 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,679 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,719 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,759 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,801 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,843 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,884 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,923 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:26,963 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,004 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,046 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,084 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,128 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,168 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,214 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,266 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,316 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,368 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,417 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,468 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,523 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,583 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,627 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,663 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,696 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,729 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,763 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,797 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,831 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,872 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,909 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,943 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:27,978 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,012 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,048 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,083 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,118 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,153 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,189 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,224 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,255 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,286 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,317 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,349 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,381 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,415 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,462 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,517 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,566 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,615 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,662 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,719 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,771 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,818 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,864 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,919 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:28,969 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,020 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,071 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,124 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,177 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,222 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,255 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,311 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,361 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,414 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,482 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,543 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,585 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,628 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,683 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,733 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,779 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,819 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,858 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,898 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,938 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:29,979 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,021 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,063 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,107 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,151 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,214 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,255 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,294 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,329 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,366 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,402 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,440 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,480 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,524 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,563 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,599 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,634 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,670 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,707 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,745 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,781 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,817 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,851 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,897 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:30,946 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,009 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,067 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,123 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,163 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,220 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,260 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,322 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,364 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,398 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:33:31,431 - src.models.drone_detector - WARNING - Unexpected input size: 16384. Resizing to 8192.
+2025-04-17 08:41:42,702 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 08:42:28,227 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 08:45:23,884 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 08:45:23,927 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 08:45:24,039 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 08:45:24,041 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 08:45:28,751 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 08:45:28,756 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 08:45:28,757 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 08:45:28,762 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 08:45:28,968 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 08:45:29,156 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 08:45:29,379 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 08:47:44,762 - src.models.drone_detector - INFO - Epoch [1/5], Train Loss: 0.4698, Val Loss: 0.8787
+2025-04-17 08:49:53,729 - src.models.drone_detector - INFO - Epoch [2/5], Train Loss: 0.3679, Val Loss: 1.0057
+2025-04-17 08:52:03,658 - src.models.drone_detector - INFO - Epoch [3/5], Train Loss: 0.3465, Val Loss: 0.7980
+2025-04-17 08:54:14,291 - src.models.drone_detector - INFO - Epoch [4/5], Train Loss: 0.3348, Val Loss: 0.7138
+2025-04-17 08:56:24,757 - src.models.drone_detector - INFO - Epoch [5/5], Train Loss: 0.3252, Val Loss: 1.8270
+2025-04-17 08:56:25,397 - src.models.drone_detector - INFO - Model saved to models/drone_detector.pt
+2025-04-17 08:56:25,577 - src.evaluation.evaluator - ERROR - Error during model evaluation: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 08:56:25,583 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 09:00:42,406 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 09:01:27,602 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 09:04:03,947 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 09:04:04,077 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 09:04:04,149 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 09:04:04,150 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 09:04:08,379 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 09:04:08,379 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 09:04:08,379 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 09:04:08,380 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 09:04:08,585 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 09:04:08,717 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 09:04:08,906 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 09:04:13,010 - src.models.drone_detector - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x2048)
+2025-04-17 09:04:13,013 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x2048)
+2025-04-17 09:06:22,455 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 09:07:08,118 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 09:10:04,484 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 09:10:04,513 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 09:10:04,747 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 09:10:04,749 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 09:10:10,247 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 09:10:10,248 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 09:10:10,249 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 09:10:10,250 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 09:10:10,455 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 09:10:10,671 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 09:10:10,933 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 09:12:26,589 - src.models.drone_detector - INFO - Epoch [1/5], Train Loss: 0.4930, Val Loss: 0.6570
+2025-04-17 09:14:35,924 - src.models.drone_detector - INFO - Epoch [2/5], Train Loss: 0.3707, Val Loss: 0.7939
+2025-04-17 09:16:45,536 - src.models.drone_detector - INFO - Epoch [3/5], Train Loss: 0.3524, Val Loss: 1.3521
+2025-04-17 09:18:54,742 - src.models.drone_detector - INFO - Epoch [4/5], Train Loss: 0.3365, Val Loss: 0.9850
+2025-04-17 09:21:04,181 - src.models.drone_detector - INFO - Epoch [5/5], Train Loss: 0.3244, Val Loss: 2.0864
+2025-04-17 09:21:04,815 - src.models.drone_detector - INFO - Model saved to models/drone_detector.pt
+2025-04-17 09:21:05,370 - src.evaluation.evaluator - ERROR - Error during model evaluation: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 09:21:05,373 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 09:32:40,336 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 09:33:25,929 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 09:36:13,772 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 09:36:13,795 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 09:36:13,868 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 09:36:13,870 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 09:36:18,649 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 09:36:18,650 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 09:36:18,651 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 09:36:18,651 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 09:36:18,900 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 09:36:19,066 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 09:36:19,290 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 09:36:25,047 - src.models.drone_detector - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x4096)
+2025-04-17 09:36:25,053 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x4096)
+2025-04-17 09:42:31,554 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 09:43:17,102 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 09:45:58,676 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 09:45:58,719 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 09:45:58,782 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 09:45:58,784 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 09:46:03,411 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 09:46:03,412 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 09:46:03,412 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 09:46:03,412 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 09:46:03,607 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 09:46:03,811 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 09:46:04,019 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 09:48:17,986 - src.models.drone_detector - INFO - Epoch [1/5], Train Loss: 0.4788, Val Loss: 1.8667
+2025-04-17 09:50:26,659 - src.models.drone_detector - INFO - Epoch [2/5], Train Loss: 0.3674, Val Loss: 1.2417
+2025-04-17 09:52:36,453 - src.models.drone_detector - INFO - Epoch [3/5], Train Loss: 0.3514, Val Loss: 2.6601
+2025-04-17 09:54:45,434 - src.models.drone_detector - INFO - Epoch [4/5], Train Loss: 0.3378, Val Loss: 1.5821
+2025-04-17 09:56:55,575 - src.models.drone_detector - INFO - Epoch [5/5], Train Loss: 0.3313, Val Loss: 1.3517
+2025-04-17 09:56:56,259 - src.models.drone_detector - INFO - Model saved to models/drone_detector.pt
+2025-04-17 09:56:56,467 - src.evaluation.evaluator - ERROR - Error during model evaluation: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 09:56:56,473 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 10:04:08,628 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 10:04:55,494 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 10:07:36,060 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 10:07:36,077 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 10:07:36,144 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 10:07:36,171 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 10:07:40,761 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 10:07:40,762 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 10:07:40,762 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 10:07:40,763 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 10:07:40,957 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 10:07:41,143 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 10:07:41,788 - src.models.drone_detector - INFO - Conv output size: 16384
+2025-04-17 10:09:55,077 - src.models.drone_detector - INFO - Epoch [1/5], Train Loss: 0.5024, Val Loss: 2.7023
+2025-04-17 10:12:03,211 - src.models.drone_detector - INFO - Epoch [2/5], Train Loss: 0.3685, Val Loss: 1.5436
+2025-04-17 10:14:12,219 - src.models.drone_detector - INFO - Epoch [3/5], Train Loss: 0.3596, Val Loss: 3.5207
+2025-04-17 10:16:21,043 - src.models.drone_detector - INFO - Epoch [4/5], Train Loss: 0.3415, Val Loss: 5.4966
+2025-04-17 10:18:29,755 - src.models.drone_detector - INFO - Epoch [5/5], Train Loss: 0.3285, Val Loss: 5.1668
+2025-04-17 10:18:30,479 - src.models.drone_detector - INFO - Model saved to models/drone_detector.pt
+2025-04-17 10:18:31,101 - src.evaluation.evaluator - ERROR - Error during model evaluation: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 10:18:31,104 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (15600x8192 and 16384x4096)
+2025-04-17 10:22:08,259 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 10:22:54,267 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 10:25:46,832 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 10:25:46,991 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 10:25:47,049 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 10:25:47,051 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 10:25:51,896 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 10:25:51,897 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 10:25:52,020 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 10:25:52,021 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 10:25:52,244 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 10:25:52,409 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 10:25:52,524 - src.models.drone_detector - INFO - Input shape for conv size calculation: torch.Size([1, 2, 1024])
+2025-04-17 10:25:52,605 - src.models.drone_detector - INFO - Output shape after conv layers: torch.Size([1, 512, 64])
+2025-04-17 10:25:52,608 - src.models.drone_detector - INFO - Flattened conv output size: 32768
+2025-04-17 10:29:59,634 - src.models.drone_detector - INFO - Epoch [1/5], Train Loss: 0.4739, Val Loss: 2.7504
+2025-04-17 10:34:00,166 - src.models.drone_detector - INFO - Epoch [2/5], Train Loss: 0.3806, Val Loss: 4.0545
+2025-04-17 10:37:59,882 - src.models.drone_detector - INFO - Epoch [3/5], Train Loss: 0.3735, Val Loss: 4.3666
+2025-04-17 10:42:00,004 - src.models.drone_detector - INFO - Epoch [4/5], Train Loss: 0.3653, Val Loss: 1.2811
+2025-04-17 10:45:59,802 - src.models.drone_detector - INFO - Epoch [5/5], Train Loss: 0.3506, Val Loss: 2.9911
+2025-04-17 10:46:01,266 - src.models.drone_detector - INFO - Model saved to models/drone_detector.pt
+2025-04-17 10:46:01,386 - src.evaluation.evaluator - ERROR - Error during model evaluation: mat1 and mat2 shapes cannot be multiplied (15600x16384 and 32768x4096)
+2025-04-17 10:46:01,391 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (15600x16384 and 32768x4096)
