@@ -1,0 +1,40 @@
+# Model Architecture Configuration
+model:
+  conv_blocks: 4  # Number of convolutional blocks
+  filters_per_block: [32, 64, 128, 256]  # Number of filters in each conv block
+  kernel_size: 3  # Kernel size for convolutional layers
+  pool_size: 2  # Pool size for max pooling layers
+  dense_layers: 6  # Number of dense layers
+  neurons_per_layer: 64  # Number of neurons in each dense layer
+  dropout_rate: 0.3  # Dropout rate for regularization
+  activation: 'relu'  # Activation function for hidden layers
+  final_activation: 'sigmoid'  # Activation function for output layer
+
+# Training Configuration
+training:
+  epochs: 20  # Number of training epochs
+  batch_size: 32  # Batch size for training
+  learning_rate: 0.001  # Initial learning rate
+  weight_decay: 0.0001  # L2 regularization
+  early_stopping_patience: 10  # Number of epochs to wait before early stopping
+  validation_split: 0.2  # Fraction of data to use for validation
+  optimizer: 'adam'  # Optimizer to use for training
+
+# Data Processing
+data:
+  sample_rate: 44100  # Sample rate of the audio signals
+  window_size: 1024  # Size of the window for feature extraction
+  hop_length: 512  # Number of samples between successive frames
+  n_mels: 128  # Number of mel bands to generate
+  normalize: true  # Whether to normalize input features
+  augmentation:
+    enabled: true  # Whether to use data augmentation
+    noise_level: 0.05  # Level of Gaussian noise to add
+    time_shift_max: 0.1  # Maximum time shift as fraction of signal length
+
+# Logging and Checkpoints
+logging:
+  log_interval: 10  # Log training metrics every N batches
+  save_best_only: true  # Only save model when validation loss improves
+  tensorboard: true  # Use TensorBoard for logging
+  mlflow_tracking: true  # Use MLflow for experiment tracking 

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/drone_detection/mlruns/481447626625207765/359619fd4b134db49350a4eb7368fcb2/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '481447626625207765'
+lifecycle_stage: active
+run_id: 359619fd4b134db49350a4eb7368fcb2
+run_name: skillful-grub-885
+run_uuid: 359619fd4b134db49350a4eb7368fcb2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744831466214
+status: 1
+tags: []
+user_id: HP

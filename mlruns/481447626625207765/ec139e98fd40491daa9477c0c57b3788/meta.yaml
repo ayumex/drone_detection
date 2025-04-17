@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/drone_detection/mlruns/481447626625207765/ec139e98fd40491daa9477c0c57b3788/artifacts
+end_time: 1744855907574
+entry_point_name: ''
+experiment_id: '481447626625207765'
+lifecycle_stage: active
+run_id: ec139e98fd40491daa9477c0c57b3788
+run_name: chill-eel-209
+run_uuid: ec139e98fd40491daa9477c0c57b3788
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744855903086
+status: 4
+tags: []
+user_id: HP

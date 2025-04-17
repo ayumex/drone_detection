@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/drone_detection/mlruns/481447626625207765/b671cd7e63484be49c163a8f25106321/artifacts
+end_time: 1744854978608
+entry_point_name: ''
+experiment_id: '481447626625207765'
+lifecycle_stage: active
+run_id: b671cd7e63484be49c163a8f25106321
+run_name: fortunate-horse-79
+run_uuid: b671cd7e63484be49c163a8f25106321
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744854495332
+status: 3
+tags: []
+user_id: HP

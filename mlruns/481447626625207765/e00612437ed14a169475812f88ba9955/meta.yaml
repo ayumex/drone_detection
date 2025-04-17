@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/HP/drone_detection/mlruns/481447626625207765/e00612437ed14a169475812f88ba9955/artifacts
+end_time: 1744831118551
+entry_point_name: ''
+experiment_id: '481447626625207765'
+lifecycle_stage: active
+run_id: e00612437ed14a169475812f88ba9955
+run_name: unleashed-robin-699
+run_uuid: e00612437ed14a169475812f88ba9955
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744831118459
+status: 4
+tags: []
+user_id: HP

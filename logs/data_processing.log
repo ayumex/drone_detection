@@ -1,0 +1,174 @@
+2025-04-17 00:06:28,745 - __main__ - ERROR - Error during training: [Errno 2] No such file or directory: 'config/model_config.yaml'
+2025-04-17 00:09:43,625 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset.zip\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 00:09:43,626 - src.data.data_processor - ERROR - Error loading data: [Errno 2] No such file or directory: 'D:\\Gash\\drone_dataset.zip\\drone_dataset\\drone_data_20250414_144053.npz'
+2025-04-17 00:09:43,626 - __main__ - ERROR - Error during training: [Errno 2] No such file or directory: 'D:\\Gash\\drone_dataset.zip\\drone_dataset\\drone_data_20250414_144053.npz'
+2025-04-17 00:20:58,096 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset.zip\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 00:20:58,097 - src.data.data_processor - ERROR - Error loading data: [Errno 2] No such file or directory: 'D:\\Gash\\drone_dataset.zip\\drone_dataset\\drone_data_20250414_144053.npz'
+2025-04-17 00:20:58,097 - __main__ - ERROR - Error during training: [Errno 2] No such file or directory: 'D:\\Gash\\drone_dataset.zip\\drone_dataset\\drone_data_20250414_144053.npz'
+2025-04-17 00:29:53,042 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 00:29:53,390 - src.data.data_processor - ERROR - Error loading data: 'features is not a file in the archive'
+2025-04-17 00:29:53,390 - __main__ - ERROR - Error during training: 'features is not a file in the archive'
+2025-04-17 00:34:04,037 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 00:34:49,658 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 00:36:04,479 - src.data.data_processor - INFO - Successfully loaded and combined data: 1000 samples
+2025-04-17 00:36:37,627 - src.data.data_processor - ERROR - Error preprocessing data: Complex data not supported
+[[ -2. +3.j   0. +2.j  -4. +1.j ...  -3. -1.j   1. +0.j   8. +2.j]
+ [  8. -1.j  -2. +3.j   0. -1.j ...  -4. -2.j  -4. +2.j   0. -7.j]
+ [  8. -5.j   2. -5.j   0. +0.j ...   4. +2.j   1. +7.j   2. -5.j]
+ ...
+ [ -6. +4.j  -3. +4.j   4. +2.j ...   2. -2.j   6. +1.j  -5. -2.j]
+ [  4. -3.j   4. +2.j   2. +4.j ...   6. +1.j   0. -1.j  -5. -1.j]
+ [-28. -3.j -12.-18.j  -3.-20.j ...   0. +2.j  -8. -5.j  -6.-10.j]]
+
+2025-04-17 00:36:37,637 - __main__ - ERROR - Error during training: Complex data not supported
+[[ -2. +3.j   0. +2.j  -4. +1.j ...  -3. -1.j   1. +0.j   8. +2.j]
+ [  8. -1.j  -2. +3.j   0. -1.j ...  -4. -2.j  -4. +2.j   0. -7.j]
+ [  8. -5.j   2. -5.j   0. +0.j ...   4. +2.j   1. +7.j   2. -5.j]
+ ...
+ [ -6. +4.j  -3. +4.j   4. +2.j ...   2. -2.j   6. +1.j  -5. -2.j]
+ [  4. -3.j   4. +2.j   2. +4.j ...   6. +1.j   0. -1.j  -5. -1.j]
+ [-28. -3.j -12.-18.j  -3.-20.j ...   0. +2.j  -8. -5.j  -6.-10.j]]
+
+2025-04-17 00:38:18,898 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 00:39:04,590 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 00:40:24,491 - src.data.data_processor - INFO - Successfully loaded and combined data: 1000 samples
+2025-04-17 00:40:24,560 - src.data.data_processor - INFO - Features shape: (1000, 800000)
+2025-04-17 00:43:03,222 - src.data.data_processor - ERROR - Error preprocessing data: Unable to allocate 9.54 GiB for an array with shape (800, 1600000) and data type float64
+2025-04-17 00:43:03,316 - __main__ - ERROR - Error during training: Unable to allocate 9.54 GiB for an array with shape (800, 1600000) and data type float64
+2025-04-17 00:46:37,028 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 00:47:22,887 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 00:48:33,117 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 00:48:33,120 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 00:48:33,129 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 00:48:33,129 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 00:48:35,931 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 00:48:35,932 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 00:48:35,932 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 00:48:35,932 - src.data.data_processor - INFO - Processed feature shape: (62400, 2048)
+2025-04-17 00:48:36,052 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 00:48:38,267 - src.models.drone_detector - INFO - Model initialized on device: cuda
+2025-04-17 00:48:38,550 - src.models.drone_detector - ERROR - Error during training: DroneDetector.train() missing 2 required positional arguments: 'X_train' and 'y_train'
+2025-04-17 00:48:38,552 - __main__ - ERROR - Error during training: DroneDetector.train() missing 2 required positional arguments: 'X_train' and 'y_train'
+2025-04-17 00:52:23,485 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 00:53:08,883 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 00:54:19,711 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 00:54:19,715 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 00:54:19,724 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 00:54:19,724 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 00:54:24,962 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 00:54:24,963 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 00:54:24,973 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 00:54:24,974 - src.data.data_processor - INFO - Processed feature shape: (62400, 2048)
+2025-04-17 00:54:25,197 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 00:54:25,370 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 00:55:19,286 - src.models.drone_detector - INFO - Epoch [1/100], Train Loss: 0.5556, Val Loss: 1.7366
+2025-04-17 00:56:05,424 - src.models.drone_detector - INFO - Epoch [2/100], Train Loss: 0.5186, Val Loss: 1.0356
+2025-04-17 00:56:46,921 - src.models.drone_detector - INFO - Epoch [3/100], Train Loss: 0.4613, Val Loss: 1.5876
+2025-04-17 00:57:31,243 - src.models.drone_detector - INFO - Epoch [4/100], Train Loss: 0.4340, Val Loss: 2.8854
+2025-04-17 00:58:24,792 - src.models.drone_detector - INFO - Epoch [5/100], Train Loss: 0.4176, Val Loss: 1.8462
+2025-04-17 00:59:12,072 - src.models.drone_detector - INFO - Epoch [6/100], Train Loss: 0.4069, Val Loss: 3.6289
+2025-04-17 00:59:52,399 - src.models.drone_detector - INFO - Epoch [7/100], Train Loss: 0.3990, Val Loss: 1.3965
+2025-04-17 01:00:35,302 - src.models.drone_detector - INFO - Epoch [8/100], Train Loss: 0.3950, Val Loss: 3.0573
+2025-04-17 01:01:17,787 - src.models.drone_detector - INFO - Epoch [9/100], Train Loss: 0.3854, Val Loss: 3.4655
+2025-04-17 01:02:03,706 - src.models.drone_detector - INFO - Epoch [10/100], Train Loss: 0.3787, Val Loss: 3.7999
+2025-04-17 01:02:46,789 - src.models.drone_detector - INFO - Epoch [11/100], Train Loss: 0.3736, Val Loss: 2.6873
+2025-04-17 01:03:31,278 - src.models.drone_detector - INFO - Epoch [12/100], Train Loss: 0.3658, Val Loss: 4.0057
+2025-04-17 01:04:11,607 - src.models.drone_detector - INFO - Epoch [13/100], Train Loss: 0.3576, Val Loss: 3.0317
+2025-04-17 01:04:56,056 - src.models.drone_detector - INFO - Epoch [14/100], Train Loss: 0.3519, Val Loss: 4.2551
+2025-04-17 01:05:38,274 - src.models.drone_detector - INFO - Epoch [15/100], Train Loss: 0.3432, Val Loss: 3.8096
+2025-04-17 01:06:21,528 - src.models.drone_detector - INFO - Epoch [16/100], Train Loss: 0.3356, Val Loss: 4.7333
+2025-04-17 01:07:04,690 - src.models.drone_detector - INFO - Epoch [17/100], Train Loss: 0.3295, Val Loss: 4.7318
+2025-04-17 01:07:47,394 - src.models.drone_detector - INFO - Epoch [18/100], Train Loss: 0.3227, Val Loss: 7.0171
+2025-04-17 01:08:29,083 - src.models.drone_detector - INFO - Epoch [19/100], Train Loss: 0.3173, Val Loss: 4.1417
+2025-04-17 01:09:14,016 - src.models.drone_detector - INFO - Epoch [20/100], Train Loss: 0.3083, Val Loss: 4.7931
+2025-04-17 01:09:59,039 - src.models.drone_detector - INFO - Epoch [21/100], Train Loss: 0.3029, Val Loss: 3.8351
+2025-04-17 01:10:44,290 - src.models.drone_detector - INFO - Epoch [22/100], Train Loss: 0.2980, Val Loss: 16.3893
+2025-04-17 01:11:27,723 - src.models.drone_detector - INFO - Epoch [23/100], Train Loss: 0.2928, Val Loss: 17.9432
+2025-04-17 01:12:11,016 - src.models.drone_detector - INFO - Epoch [24/100], Train Loss: 0.2848, Val Loss: 49.5804
+2025-04-17 01:12:56,234 - src.models.drone_detector - INFO - Epoch [25/100], Train Loss: 0.2809, Val Loss: 41.8303
+2025-04-17 01:13:41,757 - src.models.drone_detector - INFO - Epoch [26/100], Train Loss: 0.2752, Val Loss: 7.3240
+2025-04-17 01:14:27,206 - src.models.drone_detector - INFO - Epoch [27/100], Train Loss: 0.2703, Val Loss: 28.4924
+2025-04-17 01:15:11,438 - src.models.drone_detector - INFO - Epoch [28/100], Train Loss: 0.2690, Val Loss: 49.4767
+2025-04-17 01:15:57,913 - src.models.drone_detector - INFO - Epoch [29/100], Train Loss: 0.2593, Val Loss: 40.3121
+2025-04-17 01:16:43,668 - src.models.drone_detector - INFO - Epoch [30/100], Train Loss: 0.2580, Val Loss: 49.1931
+2025-04-17 01:17:29,967 - src.models.drone_detector - INFO - Epoch [31/100], Train Loss: 0.2546, Val Loss: 49.9289
+2025-04-17 01:18:17,341 - src.models.drone_detector - INFO - Epoch [32/100], Train Loss: 0.2457, Val Loss: 43.3131
+2025-04-17 01:19:03,554 - src.models.drone_detector - INFO - Epoch [33/100], Train Loss: 0.2462, Val Loss: 8.5912
+2025-04-17 01:19:51,331 - src.models.drone_detector - INFO - Epoch [34/100], Train Loss: 0.2474, Val Loss: 49.9680
+2025-04-17 01:20:40,002 - src.models.drone_detector - INFO - Epoch [35/100], Train Loss: 0.2385, Val Loss: 49.9946
+2025-04-17 01:21:28,639 - src.models.drone_detector - INFO - Epoch [36/100], Train Loss: 0.2355, Val Loss: 49.8096
+2025-04-17 01:22:17,222 - src.models.drone_detector - INFO - Epoch [37/100], Train Loss: 0.2251, Val Loss: 14.8975
+2025-04-17 01:23:05,923 - src.models.drone_detector - INFO - Epoch [38/100], Train Loss: 0.2248, Val Loss: 49.8468
+2025-04-17 01:23:55,313 - src.models.drone_detector - INFO - Epoch [39/100], Train Loss: 0.2229, Val Loss: 49.9574
+2025-04-17 01:24:44,663 - src.models.drone_detector - INFO - Epoch [40/100], Train Loss: 0.2179, Val Loss: 49.8096
+2025-04-17 01:25:31,353 - src.models.drone_detector - INFO - Epoch [41/100], Train Loss: 0.2163, Val Loss: 42.9010
+2025-04-17 01:29:39,521 - src.models.drone_detector - INFO - Epoch [42/100], Train Loss: 0.2112, Val Loss: 49.3583
+2025-04-17 01:30:20,815 - src.models.drone_detector - INFO - Epoch [43/100], Train Loss: 0.2122, Val Loss: 49.9732
+2025-04-17 01:31:02,381 - src.models.drone_detector - INFO - Epoch [44/100], Train Loss: 0.2086, Val Loss: 49.9168
+2025-04-17 01:31:42,916 - src.models.drone_detector - INFO - Epoch [45/100], Train Loss: 0.2047, Val Loss: 34.1081
+2025-04-17 01:32:25,889 - src.models.drone_detector - INFO - Epoch [46/100], Train Loss: 0.2029, Val Loss: 49.8650
+2025-04-17 01:33:08,138 - src.models.drone_detector - INFO - Epoch [47/100], Train Loss: 0.2059, Val Loss: 49.9197
+2025-04-17 01:33:50,200 - src.models.drone_detector - INFO - Epoch [48/100], Train Loss: 0.2024, Val Loss: 49.6600
+2025-04-17 01:34:31,377 - src.models.drone_detector - INFO - Epoch [49/100], Train Loss: 0.1990, Val Loss: 18.0939
+2025-04-17 01:39:17,057 - src.models.drone_detector - INFO - Epoch [50/100], Train Loss: 0.1926, Val Loss: 49.5452
+2025-04-17 01:40:00,661 - src.models.drone_detector - INFO - Epoch [51/100], Train Loss: 0.1984, Val Loss: 49.5224
+2025-04-17 01:40:44,087 - src.models.drone_detector - INFO - Epoch [52/100], Train Loss: 0.1906, Val Loss: 30.7262
+2025-04-17 01:41:28,108 - src.models.drone_detector - INFO - Epoch [53/100], Train Loss: 0.1955, Val Loss: 48.8947
+2025-04-17 01:42:11,885 - src.models.drone_detector - INFO - Epoch [54/100], Train Loss: 0.1919, Val Loss: 49.9314
+2025-04-17 07:14:10,937 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 07:14:56,438 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 07:16:10,293 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 07:16:55,875 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 07:18:10,581 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 07:18:10,582 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 07:18:10,596 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 07:18:10,597 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 07:18:14,595 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 07:18:14,595 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 07:18:14,596 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 07:18:14,597 - src.data.data_processor - INFO - Processed feature shape: (62400, 2048)
+2025-04-17 07:18:14,717 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 07:18:14,829 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 07:18:38,822 - src.models.drone_detector - INFO - Epoch [1/20], Train Loss: 0.5602, Val Loss: 1.8897
+2025-04-17 07:19:00,466 - src.models.drone_detector - INFO - Epoch [2/20], Train Loss: 0.5018, Val Loss: 3.2256
+2025-04-17 07:19:22,400 - src.models.drone_detector - INFO - Epoch [3/20], Train Loss: 0.4471, Val Loss: 5.3216
+2025-04-17 07:19:43,869 - src.models.drone_detector - INFO - Epoch [4/20], Train Loss: 0.4308, Val Loss: 2.9110
+2025-04-17 07:20:06,240 - src.models.drone_detector - INFO - Epoch [5/20], Train Loss: 0.4159, Val Loss: 4.7845
+2025-04-17 07:20:30,008 - src.models.drone_detector - INFO - Epoch [6/20], Train Loss: 0.4074, Val Loss: 6.3674
+2025-04-17 07:20:50,978 - src.models.drone_detector - INFO - Epoch [7/20], Train Loss: 0.3973, Val Loss: 4.4363
+2025-04-17 07:21:12,322 - src.models.drone_detector - INFO - Epoch [8/20], Train Loss: 0.3887, Val Loss: 5.4038
+2025-04-17 07:21:33,418 - src.models.drone_detector - INFO - Epoch [9/20], Train Loss: 0.3812, Val Loss: 35.3912
+2025-04-17 07:21:54,491 - src.models.drone_detector - INFO - Epoch [10/20], Train Loss: 0.3737, Val Loss: 5.0053
+2025-04-17 07:22:15,942 - src.models.drone_detector - INFO - Epoch [11/20], Train Loss: 0.3647, Val Loss: 34.8347
+2025-04-17 07:22:38,466 - src.models.drone_detector - INFO - Epoch [12/20], Train Loss: 0.3594, Val Loss: 6.1757
+2025-04-17 07:23:00,429 - src.models.drone_detector - INFO - Epoch [13/20], Train Loss: 0.3496, Val Loss: 4.8589
+2025-04-17 07:23:23,240 - src.models.drone_detector - INFO - Epoch [14/20], Train Loss: 0.3466, Val Loss: 7.2681
+2025-04-17 07:23:50,954 - src.models.drone_detector - INFO - Epoch [15/20], Train Loss: 0.3372, Val Loss: 8.1271
+2025-04-17 07:24:18,211 - src.models.drone_detector - INFO - Epoch [16/20], Train Loss: 0.3301, Val Loss: 38.8497
+2025-04-17 07:24:47,937 - src.models.drone_detector - INFO - Epoch [17/20], Train Loss: 0.3244, Val Loss: 6.9512
+2025-04-17 07:25:16,354 - src.models.drone_detector - INFO - Epoch [18/20], Train Loss: 0.3212, Val Loss: 30.9669
+2025-04-17 07:25:45,449 - src.models.drone_detector - INFO - Epoch [19/20], Train Loss: 0.3121, Val Loss: 7.5320
+2025-04-17 07:26:13,043 - src.models.drone_detector - INFO - Epoch [20/20], Train Loss: 0.3073, Val Loss: 49.2202
+2025-04-17 07:26:13,072 - src.models.drone_detector - INFO - Model saved to models/drone_detector.pt
+2025-04-17 07:26:16,986 - src.evaluation.evaluator - INFO - Classification report saved to results\classification_report.txt
+2025-04-17 07:26:18,107 - src.evaluation.evaluator - INFO - Confusion matrix plot saved to results\confusion_matrix.png
+2025-04-17 07:26:18,356 - src.evaluation.evaluator - INFO - ROC curve plot saved to results\roc_curve.png
+2025-04-17 07:26:18,588 - src.evaluation.evaluator - INFO - Precision-Recall curve plot saved to results\precision_recall_curve.png
+2025-04-17 07:26:18,589 - src.evaluation.evaluator - INFO - Model evaluation completed successfully
+2025-04-17 07:26:18,589 - src.evaluation.evaluator - INFO - Accuracy: 0.4994
+2025-04-17 07:26:18,590 - src.evaluation.evaluator - INFO - F1 Score: 0.6661
+2025-04-17 07:26:18,610 - __main__ - INFO - Training completed successfully
+2025-04-17 07:37:46,807 - src.data.data_processor - INFO - Loading drone data from D:\Gash\drone_dataset\drone_dataset\drone_data_20250414_144053.npz
+2025-04-17 07:38:33,230 - src.data.data_processor - INFO - Loading no-drone data from D:\Gash\drone_dataset\drone_dataset\background_20250414_142850.npz
+2025-04-17 07:41:36,767 - src.data.data_processor - INFO - Successfully loaded and combined data:
+2025-04-17 07:41:36,798 - src.data.data_processor - INFO - Total segments: 78000
+2025-04-17 07:41:36,861 - src.data.data_processor - INFO - Segment size: 1024
+2025-04-17 07:41:36,862 - src.data.data_processor - INFO - Features shape: (78000, 1024)
+2025-04-17 07:41:41,741 - src.data.data_processor - INFO - Data preprocessed successfully
+2025-04-17 07:41:41,742 - src.data.data_processor - INFO - Training set size: 62400
+2025-04-17 07:41:41,744 - src.data.data_processor - INFO - Test set size: 15600
+2025-04-17 07:41:41,744 - src.data.data_processor - INFO - Processed feature shape: (62400, 1024)
+2025-04-17 07:41:41,941 - src.data.data_processor - INFO - Scalers saved to models/scaler_real.joblib and models/scaler_imag.joblib
+2025-04-17 07:41:42,098 - src.models.drone_detector - INFO - Using device: cuda
+2025-04-17 07:41:47,572 - src.models.drone_detector - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x128)
+2025-04-17 07:41:47,581 - __main__ - ERROR - Error during training: mat1 and mat2 shapes cannot be multiplied (32x16384 and 8192x128)
