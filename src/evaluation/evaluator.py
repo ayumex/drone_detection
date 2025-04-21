@@ -8,11 +8,14 @@ from sklearn.metrics import (
     auc,
     precision_recall_curve,
     f1_score,
-    accuracy_score
+    accuracy_score,
+    precision_score,
+    recall_score
 )
 import logging
 import os
 import torch
+import json
 
 logging.basicConfig(
     level=logging.INFO,
@@ -40,40 +43,67 @@ class ModelEvaluator:
         
     def evaluate_model(self, model, X_test, y_test):
         """
-        Perform comprehensive model evaluation.
+        Evaluate the model on test data.
         
         Args:
-            model: Trained PyTorch model
+            model (DroneDetector): Trained model
             X_test (np.ndarray): Test features
             y_test (np.ndarray): Test labels
         """
         try:
-            # Convert data to PyTorch tensors
-            X_test_tensor = torch.FloatTensor(X_test).to(model.device)
+            # Convert test data to tensor with correct format
+            if np.iscomplexobj(X_test):
+                # Handle complex data by stacking real and imaginary parts
+                X_test_tensor = torch.stack([
+                    torch.FloatTensor(np.real(X_test)),
+                    torch.FloatTensor(np.imag(X_test))
+                ], dim=1).to(model.device)
+            else:
+                # Ensure shape is (batch, 2, length)
+                X_test_tensor = torch.FloatTensor(X_test).view(X_test.shape[0], 2, -1).to(model.device)
+            
+            # Convert labels to tensor
+            y_test_tensor = torch.FloatTensor(y_test).reshape(-1, 1).to(model.device)
+            
+            # Set model to evaluation mode
+            model.eval()
             
             # Get predictions
-            model.eval()
             with torch.no_grad():
-                y_pred_proba = model(X_test_tensor).cpu().numpy().squeeze()
-            y_pred = (y_pred_proba > 0.5).astype(int)
+                predictions = model(X_test_tensor)
+            
+            # Convert predictions to numpy
+            predictions = predictions.cpu().numpy()
             
             # Calculate metrics
-            accuracy = accuracy_score(y_test, y_pred)
-            f1 = f1_score(y_test, y_pred)
+            accuracy = accuracy_score(y_test, predictions > 0.5)
+            precision = precision_score(y_test, predictions > 0.5)
+            recall = recall_score(y_test, predictions > 0.5)
+            f1 = f1_score(y_test, predictions > 0.5)
             
-            # Generate and save evaluation results
-            self._generate_classification_report(y_test, y_pred)
-            self._plot_confusion_matrix(y_test, y_pred)
-            self._plot_roc_curve(y_test, y_pred_proba)
-            self._plot_precision_recall_curve(y_test, y_pred_proba)
-            
-            # Log results
-            logger.info("Model evaluation completed successfully")
+            # Log metrics
+            logger.info("Model Evaluation Results:")
             logger.info(f"Accuracy: {accuracy:.4f}")
+            logger.info(f"Precision: {precision:.4f}")
+            logger.info(f"Recall: {recall:.4f}")
             logger.info(f"F1 Score: {f1:.4f}")
             
+            # Save results
+            results = {
+                'accuracy': accuracy,
+                'precision': precision,
+                'recall': recall,
+                'f1': f1
+            }
+            
+            # Save to file
+            with open('results/evaluation_results.json', 'w') as f:
+                json.dump(results, f, indent=4)
+            
+            return results
+            
         except Exception as e:
-            logger.error(f"Error during model evaluation: {str(e)}")
+            logger.error("Error during model evaluation: %s", str(e))
             raise
             
     def _generate_classification_report(self, y_true, y_pred):
